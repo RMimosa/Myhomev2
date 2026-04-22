@@ -1,39 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>家庭互动衣橱APP设计</title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      background: #f8f5f0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    }
-    #root {
-      height: 100%;
-    }
-    /* 固定页面内容，让浏览器直接显示 */
-    body {
-      max-width: 430px;
-      margin: 0 auto;
-      background: #f8f5f0;
-    }
-  </style>
-</head>
-<body>
-  <div id="root">
-    <!-- 你的页面内容会在这里正常显示 -->
-  </div>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>家庭互动衣橱APP设计</title>
+      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+    </head>
 
-  <!-- 我帮你修复成静态可运行模式 -->
-  <script>
-    // 修复空白问题，让页面直接显示
-    document.addEventListener('DOMContentLoaded', function() {
-      console.log("页面已加载 - 家庭互动衣橱APP");
-    });
-  </script>
-</body>
-</html>
-  
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
